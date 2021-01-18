@@ -561,6 +561,7 @@ figure.snip1321 {
   text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+
 }
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;
@@ -570,22 +571,26 @@ figure.snip1321 * {
 }
 figure.snip1321 figcaption {
   top: 50%;
-  left: 20px;
-  right: 20px;
+  left: 30px;
+  right: 30px;
   position: absolute;
   opacity: 0;
   z-index: 1;
+      pointer-events: none;
 }
 figure.snip1321 h4 {
     margin-top: 15px;
   margin-bottom: 5px;
   color: #232323;
+  
 }
 figure.snip1321 span {
     font-size: 14px;
     font-style: italic;
     display: block;
     color: #7a7a7a;
+ pointer-events: none;
+
 }
 figure.snip1321 i {
   position: relative!important;
@@ -616,6 +621,8 @@ figure.snip1321:after {
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
   opacity: 0;
+   pointer-events: none;
+
 }
 figure.snip1321 a {
   left: 0;
