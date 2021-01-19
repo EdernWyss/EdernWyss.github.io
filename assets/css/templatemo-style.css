@@ -576,7 +576,6 @@ figure.snip1321 figcaption {
   position: absolute;
   opacity: 0;
   z-index: 1;
-      pointer-events: none;
 }
 figure.snip1321 h4 {
     margin-top: 15px;
