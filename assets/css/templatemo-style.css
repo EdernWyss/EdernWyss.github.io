@@ -463,11 +463,11 @@ button:hover {
 }
 
 .service-item .fourth-service-icon {
-    background-image: url(../images/GitHub-logo.png);
+    background-image: url(../images/github.png);
 }
 
 .service-item:hover .fourth-service-icon {
-    background-image: url(../images/GitHub-logo.png);
+    background-image: url(../images/github.png);
 }
 
 
