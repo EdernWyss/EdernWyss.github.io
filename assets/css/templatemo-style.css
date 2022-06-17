@@ -479,9 +479,8 @@ section.my-work .section-heading {
 }
 
 .isotope-wrapper {
-    position: relative;
     width: 100%;
-    margin: auto;
+    margin: 20px;
 }
 
 .isotope-toolbar input[type="radio"] {
